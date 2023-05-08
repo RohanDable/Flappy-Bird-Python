@@ -446,7 +446,7 @@ def checkCrash(player, upperPipes, lowerPipes):
             # player and upper/lower pipe hitmasks
             pHitMask = HITMASKS['player'][pi]
             uHitmask = HITMASKS['pipe'][0]
-            lHitmask = HITMASKS['pipe'][1]
+            lHitmask =  HITMASKS['pipe'][1]
 
             # if bird collided with upipe or lpipe
             uCollide = pixelCollision(playerRect, uPipeRect, pHitMask, uHitmask)
